@@ -1,0 +1,218 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0;
+}
+/* banner  */
+.container{
+    height: 440px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background-color:#2D25A0 ;
+
+}
+.half-width{
+    width: 55%;
+}
+.img{
+    width: 556px;
+    height: 438px;
+    margin-top: 70px;
+    margin-right: 141px;
+}
+.half-width img {
+    width: 100%;
+    padding-left: 100px ;
+}
+.h1{
+    margin: 111px 0px 53px 128px;
+
+}
+.banner-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    /* margin-top: 111px; */
+    margin-left: 128px;
+}
+.watch-button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    margin-top: 27px;
+    margin-left: 128px;
+    padding: 10px 24px;
+    border-radius: 5%;
+}   
+.watch-button:hover{
+    transform: scale(1.5) skew(-20deg) ;
+    transition: transform 2s ease-in-out;
+    padding: 15px ;
+}
+/* players  styles */
+.container-players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+h2{
+    margin: 0;
+    font-size: 22px;
+    color: #18191F;
+}
+p{ 
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6C6C6C;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 27px;
+    align-items: center;
+    margin-top: 50px;
+}
+.player{
+    width: 230px;
+    height: 470px;
+    padding: 15px;
+    /* background: #FFFFFF; */
+    margin-top: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player-image img{
+    width: 100%;
+}
+.player-info{
+    display: flex;
+    flex-direction: column;
+}
+
+/* upcoming games */
+
+.simple-match-card-container{
+   margin: 25px;
+}
+.match-card{
+    display: block;
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 1px solid red ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.match-card:hover{
+    transition: transform 300ms ease-in-out;
+    transform: scale(.89) ;
+}
+.simple-match-card{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.match-card-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.teams-content{
+    padding-left: 10px;
+    padding-right: 80px;
+    min-width: 0;
+    border-right: 1px solid navajowhite;
+}
+.match-times-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.simple-match-card__pre-match{
+    display: flex;
+    flex-direction: column;
+}
+.title-8-bold{
+    font-weight: 400;
+    color: brown;
+}
+.simple-match-card__info-message{
+    padding-top: 2px;
+}
+.title-8-medium{
+    font-weight: 400;
+    color: rgb(161, 98, 98);
+}
+/* footer */
+.container-footer{
+    width: 483.87px;
+    height: 213px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.footer-style{
+    margin-top: 7%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    text-align: center; 
+}
+.social-logo{
+    width: 170px;
+    height: 32px;
+    margin-left: 165px;
+}
+.social-logo a{
+    margin: 5px;
+    border-radius: 90px;
+}
+.footer-logo{
+    width: 483.87px;
+    height: 110px;
+}
+.copyright-content{
+    margin-left: 120px;
+}
+.fab{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+/* Search Section  */
+.matches-search-container{
+    width: 600px;
+    height: 150px;
+    margin-left: 140px;
+    margin-top: 60px;
+    background-color: blanchedalmond;
+}
+.matches-search{
+    padding-top: 20px;
+    text-align: center;
+}
+.search-bar{
+    padding: 15px 120px;
+    border-radius: 5px;
+}
+#submit-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5%;
+    background-color:salmon; 
+    color: white;
+}
